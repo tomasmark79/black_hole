@@ -166,8 +166,8 @@ struct Engine {
     GLuint gridEBO = 0;
     int gridIndexCount = 0;
 
-    int WIDTH = 800;  // Window width
-    int HEIGHT = 600; // Window height
+    int WIDTH = 1920;  // Window width
+    int HEIGHT = 1080; // Window height
     int COMPUTE_WIDTH  = 200;   // Compute resolution width
     int COMPUTE_HEIGHT = 150;  // Compute resolution height
     float width = 100000000000.0f; // Width of the viewport in meters

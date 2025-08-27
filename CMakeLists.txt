@@ -10,7 +10,7 @@ find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 
 # Common dependencies
-set(DEPS glfw GLEW::GLEW glm::glm)
+set(DEPS glfw GLEW::GLEW glm::glm GL m)
 
 # 2D Lensing executable
 add_executable(BlackHole2D 2D_lensing.cpp)
